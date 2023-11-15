@@ -50,6 +50,17 @@ main {
   background-color: gray;
   width: 500px;
   height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.cell {
+  width: calc(100% / 10);
+  height: calc(100% / 10);
+  background-color: #7fffd4;
+  border: 1px solid black;
+  text-align: center;
 }
 /*
 FOOTER
