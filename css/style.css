@@ -68,7 +68,9 @@ main {
   height: calc(100% / 10);
   background-color: #7fffd4;
   border: 1px solid black;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /*
 FOOTER
