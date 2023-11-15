@@ -24,7 +24,11 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 20px;
+  padding: 10px 10px;
+}
+
+.box-header {
+  display: flex;
 }
 
 header h1 {
@@ -33,6 +37,10 @@ header h1 {
 
 header button {
   padding: 0px 25px;
+}
+
+header img {
+  width: 50px;
 }
 
 /*
@@ -67,6 +75,7 @@ FOOTER
 */
 footer {
   padding: 5px 20px;
+  font-size: 13px;
 }
 /*
 UTILITY
