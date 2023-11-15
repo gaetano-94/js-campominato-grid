@@ -6,3 +6,57 @@ RESET
   padding: 0;
   box-sizing: border-box;
 }
+
+/*
+COMMON
+*/
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/*
+HEADER
+*/
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+header h1 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header button {
+  padding: 0px 25px;
+}
+
+/*
+MAIN
+*/
+main {
+  flex-grow: 1;
+  background-color: #7fffd4;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.table {
+  background-color: gray;
+  width: 500px;
+  height: 500px;
+}
+/*
+FOOTER
+*/
+footer {
+  padding: 5px 20px;
+}
+/*
+UTILITY
+*/
